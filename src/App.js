@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 export default App;
 
-const API_BASE_URL = '<YOUR_API_BASE_URL>';
+const API_BASE_URL = 'https://1tjrxtaur8.execute-api.us-east-2.amazonaws.com/prod';
 
 function App() {
   const [polls, setPolls] = useState([]);
