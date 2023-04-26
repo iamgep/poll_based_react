@@ -2,7 +2,7 @@ import json
 import boto3
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('your_polls_table_name')
+table = dynamodb.Table('polls')
 
 def lambda_handler(event, context):
     resource = event['resource']
